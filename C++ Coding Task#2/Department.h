@@ -9,6 +9,6 @@ public:
 private:
 	std::string departmentName;
 	int numEmployees;
-	Employee* employees = new Employee[numEmployees];
+	Employee* employees;
 };
 
