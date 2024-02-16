@@ -4,7 +4,7 @@
 class Shape
 {
 public:
-	Shape() : colour("red") {}
+	Shape() : colour(colour) {}
 	virtual void draw() const = 0;
 	virtual ~Shape() {}
 protected:
