@@ -6,7 +6,7 @@ public:
 
 	virtual float area() = 0;
 	virtual void draw() = 0;
-	~Shape() {}
+	virtual ~Shape() {}
 protected:
 	std::string colour;
 };
