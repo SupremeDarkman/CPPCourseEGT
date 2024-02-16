@@ -4,7 +4,7 @@
 class Shape
 {
 public:
-	Shape() : colour(colour) {}
+	Shape(std::string colour) : colour(colour) {}
 	virtual void draw() const = 0;
 	virtual ~Shape() {}
 protected:
