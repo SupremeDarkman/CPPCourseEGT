@@ -4,7 +4,7 @@
 class Rectangle : public Shape
 {
 public:
-	void draw() override
+	void draw() const override
 	{
 		std::cout << "Drawing a " << Shape::colour << " rectangle" << std::endl;
 	}
